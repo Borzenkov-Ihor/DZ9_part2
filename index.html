@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ДЗ-7</title>
+</head>
+<body>
+    <form action="">
+        <div class="column-1">
+            <label for="type">Type <b>*</b></label>
+            <select name="" id="type">
+                <option value="">Tractor</option>
+                <option value="">Auto</option>
+            </select>
+
+            <label for="subtype">SubType <b>*</b></label>
+            <input type="text" id="subtype">
+
+            <label for="Specs">Specs</label>
+            <input type="text" id="Specs">
+
+            <label for="Driver">Driver</label>
+            <select class="select-type" name="" id="Driver" >
+                <option value="">Select</option>
+            </select>
+        </div>
+        <div class="column-2">
+            <label for="Vehicle">Vehicle ID Number (VIN) <b>*</b></label>
+            <input type="text" id="Vehicle">
+            <label for="Make">Make <b>*</b></label>
+            <input type="text" id="Make">
+            <label for="model">Model <b>*</b></label>
+            <input type="text" id="model">
+            <div class="data-block">
+                <div class="row1">
+                    <label class="data-label" for="year">Year<b>*</b></label>
+                    <input class="data-input" type="text" id="year">
+                </div>
+                <div class="row2">
+                    <label class="data-label" for="GVW">GVW<b>*</b></label>
+                    <input class="data-input" type="text" id="GVW">
+                </div>
+                <div class="row3">
+                    <label class="data-label" for="Unit">Unit<b>*</b></label>
+                    <select name="" id="Unit">
+                        <option value="">LBS</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="column-3">
+            <label for="License">License Plate <b>*</b></label>
+            <input type="text" id="License">
+            <label for="Port-Pass">Port Pass RFID</label>
+            <input class="input-type" type="text" id="">
+            <input class="chek" type="checkbox" id="Port-Pass">
+            <label for="owner-ship">Ownership <b>*</b></label>
+             <select name="" id="owner-ship">
+                <option value="">Owned</option>
+                <option value="">No owned</option>
+             </select>
+            <label for="truck-type">Truck Type</label>
+            <select name="" id="truck-type">
+                <option value="">Sleeper</option>
+                <option value="">Barkas</option>
+            </select>
+        </div>
+        <div class="column-4">
+            <p>Registration</p>
+            <label for="state">State <b>*</b></label>
+            <select  name="" id="state">
+                <option value="">Al - Alabama</option>
+                <option value="">New York</option>
+            </select>
+            <label for="data">Date <b>*</b></label>
+            <input type="text" id="data">
+            <div>
+                <div class="row4">
+                    <label class="data-label" for="Gvw1">GVW<b>*</b></label>
+                    <input class="data-input" type="text" id="Gvw1">
+                </div>
+                <div class="row5">
+                    <label class="data-label" for="unit">Unit<b>*</b></label>
+                    <select name="" id="unit" >
+                        <option value="">KGS</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="column-5">
+            <label for="Restrictions">Restrictions <b>*</b></label>
+            <select name="" id="Restrictions">
+                <option value="">Highway</option>
+            </select>
+            <label for="exp-date">Exp. Date <b>*</b></label>
+            <input type="date" id="exp-date">
+            <label class="pseudo" for="doc-image">Doc. Image</label>
+            <input class="inp" type="file" id="doc-image">
+           
+        </div>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

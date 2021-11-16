@@ -1,0 +1,122 @@
+body {
+    margin: 0; 
+}
+
+form {
+    display: flex;
+    position: relative;
+}
+
+
+.column-1, .column-2, .column-3, .column-4, .column-5 {
+        position: relative;
+        margin: 5px;
+        min-width: 19%;
+}
+
+
+
+label {
+    margin: 5px 0;
+   height: 20px;
+    width: 100%;
+}
+select, input {
+   margin: 5px 0;
+   height: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 0.5px solid white;
+    border-bottom: 1px solid grey;
+    
+}
+
+b {
+    color: red;
+}
+
+select, input {
+    height: 25px;
+    
+}
+
+.input-type, .select-type {
+    background-color: rgb(197, 181, 148);
+    border: white;
+}
+
+.row1, .row2, .row3 {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 32%;
+    
+}
+
+.row4, .row5 {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 49%;
+    width: 100%;
+    
+}
+
+.pseudo:before {
+    content: "";
+    background-size: contain;
+    background-color: blue;
+    width: 200px;
+    height: 25px;
+    max-width: 60%;
+    /* display: inline-block; */
+    position: absolute;
+    top: 61%;
+    border-radius: 8px;
+}
+
+.pseudo:after {
+    content: "";
+    background-image: url(https://img1.freepng.ru/20180320/sce/kisspng-upload-computer-icons-computer-file-icon-drawing-upload-5ab11ede1aa5a7.0935589515215572141092.jpg);
+    background-size: contain;
+    width: 20px;
+    height: 15px;
+    /* display: inline-block; */
+    position: absolute;
+    right: 87%;
+    top: 63%;
+    
+}
+
+.inp {
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.chek {
+    position: absolute;
+    top: 35%;
+   left: 3%;
+   width: 18px;
+   height: 18px;
+}
+
+@media (max-width:1050px) {
+    form {
+        flex-direction: column;
+    }
+
+    .chek {
+        top: 35%;
+        left: 2%;
+    }
+
+    .pseudo:before {
+        top: 82%;
+    }
+
+    .pseudo:after {
+        top: 85%;
+        left: 3%;
+    }
+}
